@@ -162,22 +162,21 @@ footer {
     background: linear-gradient(to bottom, #7502750e, white);
     padding-top: 10px;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
 
-/* ul {
-    justify-content: center;
-    align-items: center;
-} */
+ /* to center the links in footer, created a class .footer_links, 
+ replaced the flex attribute in footer li to "margin-right" and removed margin:0 from footer li */
+.footer_links{
+    margin-right: 30px;
+}
 
 footer li {
     display: inline-flex;
     font-size: 11px;
     color: #0066c0;
-    column-gap: 30px;
-    margin: 0%;
+    margin-right: 10px;
 }
 
 footer p {
